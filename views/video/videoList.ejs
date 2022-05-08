@@ -1,0 +1,11 @@
+<ul>
+    <% for (let i=0; i < videos.length; i++) { %>
+        <li>
+            <h2>Título: <%= videos[i].title %>
+            </h2>
+            <p>Artista: <%= videos[i].description %>
+            </p>
+            <a href=`<%=videos[i].url %>` target="_blank"> Video de youtube</a>
+        </li>
+        <% } %>
+</ul>
